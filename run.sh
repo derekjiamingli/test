@@ -2,7 +2,7 @@
 time ls
 uname -a
 echo "This is Derek"
-if [ $1 -eq 62 ];
+if [ $1 = "62" ]
 then
 echo $1
 fi
